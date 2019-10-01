@@ -1,0 +1,44 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.full-page {
+  flex-wrap:row;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3E2A35;
+}
+
+h1 {
+  color: white;
+}
+
+.aside-form {
+ display: flex;
+ justify-content: center;
+ background-color: #3E2A35;
+ padding-top: 20%;
+ padding-bottom: 20%;
+}
+
+aside {
+  background-color: #3E2A35;
+}
+
+p {
+  background-color: #C2B2B4;
+  padding-top: 20%;
+  padding-bottom: 20%;
+
+}
