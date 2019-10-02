@@ -36,7 +36,7 @@ function showCard(event) {
   <section class='photo-card'>
     <p class='card-title'><span>${cardTitle.value}</span>
       <div class ='photo-holder'>
-      <p class= 'card-photo' data-id='${Date.now()}'>${addPhotoUrl.value}</p>
+      <p class= 'card-photo' data-id='${Date.now()}'><img id='image' src='${addPhotoUrl.value}'</p>
       </div>
       <div class ='card-caption'><span>${cardCaption.value}</span>
       </div>

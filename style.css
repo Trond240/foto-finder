@@ -23,7 +23,7 @@ header {
 h1 {
   color: white;
   display:flex;
-  font-size: 3em;
+  font-size: 4.3em;
 }
 
 .aside-form {
@@ -46,11 +46,9 @@ main {
   justify-content: flex-start;
 }
 
-/* .photo-album {
-  column-count: 3;
-  column-gap: 1em;
-  padding: 1em;
-} */
+.input, .photo-url {
+  font-size: 1.3em;
+}
 
 
 label {
@@ -62,11 +60,13 @@ input, .add-button {
   height:45px;
   width: 500px;
   margin-bottom: 3%;
+  border-radius: 3px 0 0 3px;
 }
 
 .add-button {
   color: #FFFFFF;
   background-color: #5B4447;
+  border: #5B4447;
 }
 
 .photo-card {
@@ -121,6 +121,11 @@ input, .add-button {
 
 .card-photo {
   height: 180px;
+}
+
+#image {
+  width: 100%;
+  height: fit-content;
 }
 
 .card-buttons {
