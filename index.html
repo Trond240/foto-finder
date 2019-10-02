@@ -9,22 +9,26 @@
   </head>
   <body>
   <header>
-  <h1>Foto<img src="" alt="">Finder</h1>
-  <input class='search_bar' type='search' placeholder='search'>
+    <h1>Foto<img class='logo' src='foto-finder-logo.svg' alt='foto-logo'>Finder</h1>
+    <form class='search_form'>
+      <input class='search_bar' type='search' placeholder='Search'>
+      <button class= 'search_button'></button>
+    </form>
   </header>
     <div class='full-page'>
       <aside>
         <form  class= 'aside-form' id=''>
-          <label for='title'>Title</lable>
-          <input class = 'input' type='text' id='title'>
-          <label for='caption'>Caption</lable>
-          <input class ='input' type='url' id='caption'>
-          <button class='button' disabled>Choose File</button>
-          <button class='button' disabled>Add to Album</button>
+          <label for='title'>Title</label>
+          <input class ='input' type='text' id='title'>
+          <label for='caption'>Caption</label>
+          <input class ='input' type='text' id='caption'>
+          <label for='Url'>Photo Url</label>
+          <input class='photo-url' type='url'>
+          <button class='add-button'>Add to Album</button>
         </form>
       </aside>
       <main class='photo-album'>
-        <p class='blank-msg'>Use the tool bar up top to add photo to album!</p>
+        <!-- <p class='blank-msg'>Use the tool bar up top to add photo to album!</p> -->
       </main>
     </div>
       <script type='text/javascript' src='foto.js'></script>
