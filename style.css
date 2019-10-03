@@ -124,8 +124,8 @@ input, .add-button {
 }
 
 #image {
-  width: 100%;
-  height: fit-content;
+  width: 356px;
+  height: 180px;
 }
 
 .card-buttons {
